@@ -1,3 +1,363 @@
+body {
+    margin: 0;
+}
+
 .container {
     background-image: url("https://elgourmet.s3.amazonaws.com/recetas/share/share_gy9ci218eu_pastelitos.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+.container .container-menu .logo{
+    margin-top: 30px;
+}
+
+.container-menu {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Encabezado de página y barar de navegación */
+
+.menu {
+    background-color: none;
+    display: flex;
+    align-items: center;
+    padding-left: 22%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    min-width: 480px;
+}
+
+header nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #a52a2a86;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-width: 480px;*/
+    
+}
+
+header nav ul{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0px;
+    
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 5px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+header nav ul li:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-textinfo{
+    /*background-color: yellow;*/
+    /*margin-left: 100px;
+    margin-top: 40px;
+    width: 100%;*/
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+  
+}
+
+.container-textinfo h1 {
+    font-family: "Barlow";
+    font-size: 2.5rem;
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container-textinfo h2 {
+    font-family: "Barlow";
+    font-size: 3.2rem;
+    color: #4b0808;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container-textinfo button{
+    width: 30%;
+    padding: 5px 10px;
+    background-color: #4b0808;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: ease-in-out 1s;
+}
+
+.container-textinfo button:hover {
+    color: azure;
+    background-color: #292828;
+    cursor: pointer;
+    transform: translateX(-50px);
+}
+
+.slide{
+    width: 30%;
+    height: inherit;
+    margin-right: 26%;
+}
+
+.slide .row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    animation: banner 24s infinite;
+    transition: 3s all;
+}
+
+.slide .row .col-100{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide .row .col-100 img{
+    width: 100%;
+}
+
+.container-medio{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: -45px;
+}
+
+.container-medio .containers{
+    margin: 20px;
+    color: #3b0404 ;
+    font-family: 'Squada One', cursive;
+    font-size: 1.6rem;
+}
+
+.container-products h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Barlow";
+    font-size: 2.5rem;
+    color: #530c0c;
+}
+
+.containers-products-ppal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containers-products-ppal .box{
+    /*background-color: #641f1f78;*/
+    text-align: center;
+    margin: 4%;
+    border-radius: 5%;
+}
+
+.containers-products-ppal .box img{
+    width: 40vh;
+    height: 50vh;
+    border-radius: 4%;
+}
+
+.containers-products-ppal .box p{
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.13);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: 20px;
+    color: #3b0404 ;
+    font-family: 'Squada One', cursive;
+    font-size: 1.6rem;
+    border-radius: 50%;
+}
+
+.containers-products-ppal .box h3{
+    margin: 20px;
+    color: #860606 ;
+    font-family: 'Squada One', cursive;
+    font-size: 1.6rem;
+}
+
+.containers-products-ppal .box button{
+    width: 40%;
+    padding: 5px 10px;
+    background-color: #4b0808;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/*----------------------------------------------------*/
+
+.container-final{
+    /*background-color: cadetblue;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.container-100{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-101{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-final .container-100 .containers-information {
+    margin: 10px;
+    padding: 30px;
+}
+
+.container-final .container-101 .containers-information1 {
+    padding: 30px;
+    margin: 10px;
+}
+
+
+.container-final .container-100 .containers-information:nth-child(1){
+    background-image: url('../img/4.jpg');
+    width: 50%;
+    height: 60vh;
+}
+
+.container-final .container-100 .containers-information:nth-child(2){
+    background-image: url('../img/4.jpg');
+    width: 50%;
+    height: 60vh;
+}
+
+.container-final .container-101 .containers-information1:nth-child(1){
+    background-image: url('../img/4.jpg');
+    width: 50%;
+    height: 60vh;
+}
+
+.container-final .container-101 .containers-information1:nth-child(2){
+    background-image: url('../img/4.jpg');
+    width: 50%;
+    height: 60vh;
+}
+
+
+
+/*------------------------ footer ---------------------------------------------*/
+
+footer{
+    background-image: url('../img/slide_reposteria.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column-25{
+    margin: 15px;
+    color: #ffffff;
+    font-family: 'Squada One';
+    font-size: 1.4rem;
+}
+
+
+.column-25 ul li{
+    list-style: none;
+    margin-top: 1px;
+    font-size: 1.2rem;
+}
+
+.column-25 h5{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.column-25 p{
+    font-size: 1.2rem;
+}
+
+.form-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-footer .content-form:nth-child(1) img{
+    width: 50vh;
+    height: 30vh;
+}
+
+.form-footer .content-form:nth-child(2){
+    text-align: center;
+    margin: 15px;
+    color: #3b0404;
+    font-family: 'Squada One', cursive;
+    font-size: 1.4rem;
+    width: 30%;
+}
+
+.form-footer .content-form:nth-child(3) form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-footer .content-form:nth-child(3) button{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #3b0404;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
+
