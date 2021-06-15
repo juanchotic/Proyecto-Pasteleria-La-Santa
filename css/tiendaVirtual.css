@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    background-image: url("https://elgourmet.s3.amazonaws.com/recetas/share/share_gy9ci218eu_pastelitos.jpg");
+    background-image: url("https://www.anaduran.com/wp-content/uploads/pasteles-hojaldrados.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -121,7 +121,33 @@ header nav ul li a {
     transform: translateX(-50px);
 }
 
+.slide{
+    width: 30%;
+    height: inherit;
+    margin-right: 26%;
+}
 
+.slide .row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    animation: banner 24s infinite;
+    transition: 3s all;
+}
+
+.slide .row .col-100{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide .row .col-100 img{
+    width: 100%;
+}
 
 .container-medio{
     background-color: white;

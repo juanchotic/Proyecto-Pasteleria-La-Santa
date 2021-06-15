@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    background-image: url("https://elgourmet.s3.amazonaws.com/recetas/share/share_gy9ci218eu_pastelitos.jpg");
+    background-image: url("https://www.esan.edu.pe/apuntes-empresariales/2016/08/24/contactcenter_principal.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -121,8 +121,6 @@ header nav ul li a {
     transform: translateX(-50px);
 }
 
-
-
 .container-medio{
     background-color: white;
     display: flex;
@@ -139,132 +137,152 @@ header nav ul li a {
     font-family: 'Squada One', cursive;
     font-size: 1.6rem;
 }
+/*-----------------------------------------------------------------------------------*/
 
-.container-products h1{
+.container-ppal {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.column {
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    box-sizing: border-box;
+}
+
+.column .container-img {
+    width: 40%;
+    height: 100vh;
+}
+
+.column .container-img figure {
     display: flex;
     justify-content: center;
+    height: 90vh;
+}
+
+.column .container-img figure img {
+    height: 90vh;
+    border-radius: 15px;
+}
+
+.column .container-form {
+    width: 125%;
+    height: 100vh;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.column .container-form form {
+    width: 100vh;
+}
+
+.column .container-form form .div-class{
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+}
+
+.column .container-form form .div-class h2 {
     font-family: "Barlow";
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #530c0c;
 }
 
-.containers-products-ppal{
+.column .container-form form .div-class ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.column .container-form form .div-class ul li{
+    padding: 6px 22px 5px 22px;
+}
+
+.column .container-form form .div-class ul li label {
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+.column .container-form form .div-class ul li input {
+    width: 15px;
+    height: 15px;
+    border: solid 1px orange;
+}
+
+.column .container-form form .div-class ul li input:checked{
+    border: solid 1px orangered;
+}
+
+.column .container-form form .div-class:nth-child(3) {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 125%;
 }
 
-.containers-products-ppal .box{
-    /*background-color: #641f1f78;*/
-    text-align: center;
-    margin: 4%;
-    border-radius: 5%;
-}
-
-.containers-products-ppal .box img{
-    width: 40vh;
-    height: 50vh;
-    border-radius: 4%;
-}
-
-.containers-products-ppal .box p{
-    font-size: 20px;
-    background-color: rgba(255, 0, 0, 0.13);
-    margin-left: 20%;
-    margin-right: 20%;
-    margin: 20px;
-    color: #3b0404 ;
-    font-family: 'Squada One', cursive;
-    font-size: 1.6rem;
-    border-radius: 50%;
-}
-
-.containers-products-ppal .box h3{
-    margin: 20px;
-    color: #860606 ;
-    font-family: 'Squada One', cursive;
-    font-size: 1.6rem;
-}
-
-.containers-products-ppal .box button{
-    width: 40%;
-    padding: 5px 10px;
-    background-color: #4b0808;
-    color: azure;
-    font-family: 'Poppins', sans-serif;
+.column .container-form form .div-class:nth-child(3) .input-text{
+    padding: 10px 1px;
+    margin: 5px;
+    border: solid 1px #d5d5d5;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #D5d5d5;
     outline: none;
-    border: none;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    margin-top: 20px;
 }
 
-/*----------------------------------------------------*/
+.column .container-form form .div-class:nth-child(3) .input-text:focus {
+    border: solid 2px burlywood;
+    box-sizing: border-box;
+}
 
-.container-final{
-    /*background-color: cadetblue;*/
+.column .container-form form .div-class:nth-child(3) .input-text:active{
+    border: none;
+}
+
+.column .container-form .div-class:nth-child(4) {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
-    background-color: rgba(255, 0, 0, 0.13);
-    margin-left: 20%;
-    margin-right: 20%;
-    margin: 20px;
-    color: #3b0404 ;
-    font-family: 'Squada One', cursive;
-    font-size: 1.6rem;
-    border-radius: 50%;
+    width: 125%;
+    
 }
 
-.container-100{
+.column .container-form .div-class:nth-child(4) label {
+    font-family: cursive;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+.column .container-form form .div-class:nth-child(4) textarea{
+    border-radius: 7px;
+    outline: none;
+    padding: 7px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #8a8888;
+}
+
+.column .container-form form .div-class:nth-child(5) button{
+    border-radius: 17px;
+    padding: 7px 7px;
+    background-color: #3b0404;
+    color: white;
+    font-size: 1.2rem;
     width: 100%;
-    display: flex;
-    flex-direction: row;
 }
 
-.container-101{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+.column .container-form form .div-class:nth-child(5) button:hover{
+    background-color: #793434;
+    cursor: pointer;
+    align-content: center;
 }
-
-.container-final .container-100 .containers-information {
-    margin: 10px;
-    padding: 30px;
-}
-
-.container-final .container-101 .containers-information1 {
-    padding: 30px;
-    margin: 10px;
-}
-
-
-.container-final .container-100 .containers-information:nth-child(1){
-    background-image: url('../img/4.jpg');
-    width: 50%;
-    height: 60vh;
-}
-
-.container-final .container-100 .containers-information:nth-child(2){
-    background-image: url('../img/4.jpg');
-    width: 50%;
-    height: 60vh;
-}
-
-.container-final .container-101 .containers-information1:nth-child(1){
-    background-image: url('../img/4.jpg');
-    width: 50%;
-    height: 60vh;
-}
-
-.container-final .container-101 .containers-information1:nth-child(2){
-    background-image: url('../img/4.jpg');
-    width: 50%;
-    height: 60vh;
-}
-
-
 
 /*------------------------ footer ---------------------------------------------*/
 

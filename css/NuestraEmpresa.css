@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    background-image: url("https://elgourmet.s3.amazonaws.com/recetas/share/share_gy9ci218eu_pastelitos.jpg");
+    background-image: url("https://escuelamarenostrum.com/wp-content/uploads/MNBS104.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -79,6 +79,7 @@ header nav ul li a {
     flex-direction: row;
     text-align: center;
     justify-content: center;
+  
 }
 
 .container-textinfo h1 {
@@ -214,13 +215,14 @@ header nav ul li a {
     color: #3b0404 ;
     font-family: 'Squada One', cursive;
     font-size: 1.6rem;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .container-100{
     width: 100%;
     display: flex;
     flex-direction: row;
+    
 }
 
 .container-101{
@@ -241,25 +243,30 @@ header nav ul li a {
 
 
 .container-final .container-100 .containers-information:nth-child(1){
-    background-image: url('../img/4.jpg');
+    background-image: url('');
     width: 50%;
     height: 60vh;
+    
 }
 
 .container-final .container-100 .containers-information:nth-child(2){
-    background-image: url('../img/4.jpg');
+    background-image: url('https://www.avanzaentucarrera.com/orientacion/comp/uploads/2019/05/AVTC_pastelero.jpg');
     width: 50%;
     height: 60vh;
+    background-position: 100%;
+    background-repeat: no-repeat;
 }
 
 .container-final .container-101 .containers-information1:nth-child(1){
-    background-image: url('../img/4.jpg');
+    background-image: url('https://portales.vilbo.com/files/uploads/images/articulos/2019/d469/ittepa-form-tras.jpg');
     width: 50%;
     height: 60vh;
+    background-position: 100%;
+    background-repeat: no-repeat;
 }
 
 .container-final .container-101 .containers-information1:nth-child(2){
-    background-image: url('../img/4.jpg');
+    background-image: url('');
     width: 50%;
     height: 60vh;
 }
