@@ -1,17 +1,17 @@
 Consulta 1
 123|productos s.a.|av la belleza # 3 - 21|3211456|Colombia|Cali
-124|procesos y ventas|calle 16 N 12 - 17|32444778|Colombia|Bogotá
+124|procesos y ventas|calle 16 N 12 -17|32444778|Colombia|Bogotá
 125|la natural ltda|car principal # 23s - 11|65478523|Colombia|Cúcuta
 126|la superior ltda|diag. a la alcaldía # 39w - 23|35715946|Colombia|Barranquilla
 127|la altura s.a.|trans 7 # 32 - 1|12457896|Colombia|Cartagena
 128|los cocos|av la caracas # 34c - 221|3217894|Colombia|Sopó
-129|el mejor|carrera 30 # 12 - 9|3215487|Colombia|Medellin
+129|el mejor|carrera 30 # 12 - 9|3215487|Colombia|Medellín
 Consulta 2
 1|Juan|Rogers|calle 13 # 12 - 32|2111201450|1998-10-01
 2|Joselin|Martin|carrera 1 # 2 - 19|310524875|1975-07-12
 3|Pedro|China|calle 2 # 5 - 23|311002547|1989-08-05
 4|Raul|Grande|carrera 23 # 21 - 108|5556565|1994-01-07
-5|Claudia|Pizarro|calle 56 # 90 - 45|2100023458|1977-10-08
+5|Caudia|Pizarro|calle 56 # 90 - 45|2100023458|1977-10-08
 6|Omar|Drinvet|carrera 11 # 102 - 13|2019852252|1988-08-10
 7|Daniela|Vita|transversal 3 # 9 - 1|350124583|1991-05-25
 Consulta 3
@@ -33,7 +33,7 @@ Consulta 5
 2|7004|2|Joselin|Martin|carrera 1 # 2 - 19|310524875|1975-07-12
 3|7001|3|Pedro|China|calle 2 # 5 - 23|311002547|1989-08-05
 4|7001|4|Raul|Grande|carrera 23 # 21 - 108|5556565|1994-01-07
-5|7007|5|Claudia|Pizarro|calle 56 # 90 - 45|2100023458|1977-10-08
+5|7007|5|Caudia|Pizarro|calle 56 # 90 - 45|2100023458|1977-10-08
 6|7007|6|Omar|Drinvet|carrera 11 # 102 - 13|2019852252|1988-08-10
 7|7005|7|Daniela|Vita|transversal 3 # 9 - 1|350124583|1991-05-25
 Consulta 6
@@ -41,6 +41,6 @@ Raul Grande|1
 Pedro China|1
 Omar Drinvet|1
 Daniela Vita|1
-Claudia Pizarro|1
+Caudia Pizarro|1
 Joselin Martin|2
 Juan Rogers|5
